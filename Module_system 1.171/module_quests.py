@@ -162,7 +162,7 @@ quests = [
 ##################
 # Note : This is defined as the first mayor quest in module_constants.py: 
 ("kill_local_merchant", "Assassinate Local Merchant at {s3}", qf_random_quest, #First attempt at running our own quest - Jason
-  "{!}{s9} asked you to assassinate a local merchant at {s3}."
+  "{!}{s10} asked you to assassinate a local merchant at {s3}."
   ),
 #  ("move_cattle_herd", "Move Cattle Herd to {s13}", qf_random_quest,
 #   "{!}Guildmaster of {s10} asked you to move a cattle herd to {s13}."
