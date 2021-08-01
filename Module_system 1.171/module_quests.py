@@ -378,8 +378,8 @@ quests = [
   "{!}placeholder"
   ),
 
- ("blank_quest_23", "{!}blank_quest", qf_random_quest,
-  "{!}placeholder"
+  ("qst_hunt_looters_action_quests", "Hunt Drunken Looters", qf_random_quest,
+  "{!}{s9} of {s4} asked you to hunt some drunken belligerants, who attacked travellers on the roads near town."
   ),
 
  ("blank_quest_24", "{!}blank_quest", qf_random_quest,
