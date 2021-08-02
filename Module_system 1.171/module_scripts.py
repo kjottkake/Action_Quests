@@ -17763,6 +17763,15 @@ scripts = [
 			(assign, ":quest_xp_reward", 3000),
 			(assign, ":quest_gold_reward", 1500),
 
+      (else_try),
+        (eq, ":result", "qst_hunt_looters_action_quests"), 
+        (assign, ":quest_target_troop", trp_looter),
+        (assign ,":quest_expiration_days", 60),
+        (assign, ":quest_dont_give_again_period", 75),
+        (store_random_in_range, ":quest_target_amount", 12, 32),
+        (store_mul, ":quest_xp_reward", ":quest_target_amount", 40),
+        (store_mul, ":quest_gold_reward", ":quest_target_amount", 40),
+
 		#KINGDOM LADY OR KINGDOM HERO QUESTS	
 		(else_try),	
 	        (eq, ":result", "qst_rescue_prisoner"),
