@@ -2286,7 +2286,7 @@ dialogs = [
 
   [anyone, "start_up_quest_1_next", 
   [],  
-  "Are you all right? Well.... I guess you're alive, at any rate. I'm not sure that we can say the same for the other fellow. That's one less thief to trouble our streets at night, although Heaven knows he won't be the last.... Anyway, maybe you can help me with something. Let's talk more inside. Out here, we don't know who's listening", "close_window", 
+  "Are you all right? Holy shit that was amazing, you sliced through that guy like a hot butter through a knife or was it the other way around?? XDDD ", "close_window", 
   [    
     (assign, "$talked_with_merchant", 1),
     (mission_disable_talk),
